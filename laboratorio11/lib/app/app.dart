@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:laboratorio10/app/view/splash.dart';
+import 'package:laboratorio10/app/view/splash/Splash_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: primary),
         scaffoldBackgroundColor: backgroundColor,
